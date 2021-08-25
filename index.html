@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mac-Outlet</title>
+</head>
+<body>
+    <header>
+        <div class="header__content">
+            <div class="logo">
+              <h1 class="logo_title"> <a href="#" class="logo_link"> <img src="images/items/logo.png" alt="logo"> </a> </h1>
+            </div>
+            <div class="cart">
+                <span class="icon-cart"></span>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="slider">
+            <div class="slider__item">
+                <img class="slider__item_img" src="images/banners/mac_book_banner.jpg" alt="slider-img">
+                <h3 class="slider__item_title">MacBook Pro-16</h3>
+                <button class="slider__item_btn tocartbtn">Add to cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="goods">
+        <div class="goods__search">
+            <input type="text" class="goods__search_input" placeholder="Enter device name...">
+            <span class="goods__search_icon icon-search"></span>
+            <div class="goods__search_filter">
+                <span class="icon-filter"></span>
+            </div>
+            <div class="goods__search_settings">
+                <span class="icon-settings"></span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="goods__content">
+                <div class="goods__filters">
+                    <div class="goods__filters_title">
+                        <h5 class="filters_subtitle">Price</h5>
+                        <span class="icon-arrow_left down"></span>
+                    </div>
+                    <hr class="goods__filters_divider">
+                    <form class="goods__filters_form_price" action="#">
+                        <div class="input-wrapper">
+                            <label class="price-label" for="price-from">From</label>
+                            <input type="text" class="price-input" id="price-from" placeholder="300">
+                        </div>
+                        <div class="input-wrapper">
+                            <label class="price-label" for="price-to">To</label>
+                            <input type="text" class="price-input" id="price-to" placeholder="1500">
+                        </div>
+                    </form>
+                    <hr class="goods__filters_divider">
+                    <div class="goods__filters_title">
+                        <h5 class="filters_subtitle">Color</h5>
+                        <span class="icon-arrow_left down"></span>
+                    </div>
+                    <hr class="goods__filters_divider">
+                    <form class="goods__filters_form_forcheck" action="#">
+                        <div class="check-column">
+                            <div>
+                                <input type="checkbox" class="check-input" id="red">
+                                <label class="check-label" for="red">Red </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="black">
+                                <label class="check-label" for="black">Black</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="blue">
+                                <label class="check-label" for="blue">Blue</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="gold">
+                                <label class="check-label" for="gold">Gold</label>
+                            </div>
+                        </div>
+                        <div class="check-column">
+                            <div>
+                                <input type="checkbox" class="check-input" id="green">
+                                <label class="check-label" for="green">Green</label>
+                            </div>
+                        <div>
+                            <input type="checkbox" class="check-input" id="white">
+                            <label class="check-label" for="white">White</label>
+                        </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="grey">
+                            <label class="check-label" for="grey">Grey </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="yellow">
+                                <label class="check-label" for="yellow">Yellow</label>
+                            </div>
+                        </div>
+                    </form>
+                    <hr class="goods__filters_divider">
+                    <div class="goods__filters_title">
+                        <h5 class="filters_subtitle">Memory</h5>
+                        <span class="icon-arrow_left down"></span>
+                    </div>
+                    <hr class="goods__filters_divider">
+                    <form class="goods__filters_form_forcheck" action="#">
+                        <div class="check-column">
+                            <div>
+                                <input type="checkbox" class="check-input" id="32">
+                                <label class="check-label" for="32">32 Gb</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="64">
+                                <label class="check-label" for="64">64 Gb</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="128">
+                                <label class="check-label" for="128">128 Gb</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="256">
+                                <label class="check-label" for="256">256 Gb</label>
+                            </div>
+                        </div>
+                        <div class="check-column">
+                            <div>
+                                <input type="checkbox" class="check-input" id="512">
+                                <label class="check-label" for="512">512 Gb</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="1">
+                                <label class="check-label" for="1">1 Tb </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="2">
+                                <label class="check-label" for="2">2 Tb </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="4">
+                                <label class="check-label" for="4">4 Tb</label>
+                            </div>
+                        </div>
+                    </form>
+                    <hr class="goods__filters_divider">
+                    <div class="goods__filters_title">
+                        <h5 class="filters_subtitle">OS</h5>
+                        <span class="icon-arrow_left down"></span>
+                    </div>
+                    <hr class="goods__filters_divider">
+                    <form class="goods__filters_form_forcheck" action="#">
+                        <div class="check-column">
+                            <div>
+                                <input type="checkbox" class="check-input" id="ios">
+                                <label class="check-label" for="ios">IOS</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="mac">
+                                <label class="check-label" for="mac">Mac OS</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="tv">
+                                <label class="check-label" for="tv">tvOS</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="watch">
+                                <label class="check-label" for="watch">Watch OS</label>
+                            </div>
+                        </div>
+                    </form>
+                    <hr class="goods__filters_divider">
+                    <div class="goods__filters_title">
+                        <h5 class="filters_subtitle">Display</h5>
+                        <span class="icon-arrow_left down"></span>
+                    </div>
+                    <hr class="goods__filters_divider">
+                    <form class="goods__filters_form_forcheck" action="#">
+                        <div class="check-column">
+                            <div>
+                                <input type="checkbox" class="check-input" id="2i">
+                                <label class="check-label" for="2i">2 - 5 inch</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="5i">
+                                <label class="check-label" for="5i">5 - 7 inch</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="7i">
+                                <label class="check-label" for="7i">7 - 12 inch</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="16i">
+                                <label class="check-label" for="16i">12 - 16 inch</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" class="check-input" id="17i">
+                                <label class="check-label" for="17i"> +16 inch</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="goods__items" >
+                    <!-- <div class="goods__items_item" id="goods"> -->
+                        <!-- <div class="item__content">
+                            <div class="item__content_heart"><span class="icon-like_empty"></span> </div>
+                            <img src="./images/items/Appletw.png" class="item__content_img" alt="foods">
+                            <h4 class="item__content_title">Apple TV Gen. 4</h4>
+                            <p class="item__content_text"> <span class="icon-check"></span> 31 left in stock <br>
+                                Price: 500 $
+                            </p>
+                            <button class="tocartbtn itembtn">Add to cart</button>
+                        </div>
+                        <div class="goods__items_footer">
+                                77% positive reviews
+                                <div class="textreview">
+                                    </div> 
+                        </div> -->
+                    <!-- </div> -->
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="script/items.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
